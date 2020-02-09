@@ -2,8 +2,8 @@ import React from 'react';
 
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
-import Join from '../src/components/Join';
-import Chat from '../src/components/Chat';
+import Join from '../src/components/Join/Join';
+import Chat from '../src/components/Chat/Chat';
 
 const App = () => (
   <Router>
